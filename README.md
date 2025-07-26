@@ -88,29 +88,6 @@ export GOOGLE_API_KEY=sua_chave_da_api_do_gemini_aqui
 3. Copie a chave gerada
 4. Configure conforme instruções acima
 
-### 5. Teste da Configuração
-
-Para testar se tudo está funcionando:
-```bash
-# Com uv
-uv run python teste_configuracao.py
-
-# Com make
-make test
-
-# Com pip
-python teste_configuracao.py
-```
-
-## ⚡ Por que usar uv?
-
-**uv** é um gerenciador de pacotes Python extremamente rápido, desenvolvido pela Astral. Principais benefícios:
-
-- **🚀 Velocidade**: 10-100x mais rápido que pip
-- **🔒 Segurança**: Resolução de dependências mais robusta
-- **📦 Simplicidade**: Menos configuração necessária
-- **🎯 Compatibilidade**: Funciona com projetos existentes
-
 ### Instalação do uv
 
 ```bash
@@ -225,9 +202,6 @@ make run-web
 
 ```
 Youtube_transcribe/
-├── 📁 scripts/                  # Scripts de automação
-│   ├── install.py              # Instalação automática
-│   └── run.py                  # Execução do projeto
 ├── 📄 pyproject.toml           # Configuração do projeto (uv)
 ├── 📄 Makefile                 # Comandos facilitados
 ├── 📄 .python-version          # Versão do Python
