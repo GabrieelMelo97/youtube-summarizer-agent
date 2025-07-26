@@ -162,22 +162,6 @@ make format      # Formatar código
 make lint        # Verificar código
 make update      # Atualizar dependências
 ```
-
-### Scripts de Automação
-```bash
-# Instalação automática
-python scripts/install.py
-
-# Execução facilitada
-python scripts/run.py web      # Interface web
-python scripts/run.py cli      # Linha de comando
-python scripts/run.py exemplo  # Exemplos
-python scripts/run.py teste    # Teste de configuração
-
-# Script direto para Streamlit
-python run_streamlit.py        # Interface web direta
-```
-
 ### Troubleshooting - Execução
 
 Se houver problemas com comandos uv/make, use alternativas:
